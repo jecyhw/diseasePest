@@ -1,0 +1,71 @@
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.14'
+}
+
+buildscript {
+    repositories {
+        maven {
+            url 'http://dl.bintray.com/cjstehno/public'
+        }
+    }
+    dependencies {
+        classpath 'gradle-templates:gradle-templates:1.5'
+    }
+}
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.4.0.RELEASE")
+    }
+}
+
+allprojects {
+    apply plugin: 'java'
+    apply plugin: 'idea'
+    apply plugin:'templates'
+    apply plugin: 'spring-boot'
+
+    group 'com.jecyhw'
+    version '1.0'
+
+    jar {
+        baseName = 'gs-accessing-data-mongodb'
+        version =  '0.1.0'
+    }
+}
+
+subprojects {
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        compile group: 'junit', name: 'junit', version: '4.12'
+        compile group: 'com.squareup.okhttp3', name: 'okhttp', version: '3.4.1'
+        compile group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.8.1'
+        compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.8.1'
+        compile group: 'log4j', name: 'log4j', version: '1.2.17'
+        compile group: 'org.jsoup', name: 'jsoup', version: '1.9.2'
+        compile group: 'org.springframework', name: 'spring-context', version: '4.3.2.RELEASE'
+        compile group: 'org.springframework', name: 'spring-test', version: '4.3.2.RELEASE'
+        compile group: 'org.springframework', name: 'spring-aspects', version: '4.3.2.RELEASE'
+        compile group: 'org.aspectj', name: 'aspectjrt', version: '1.8.9'
+        compile group: 'org.mongodb', name: 'mongo-java-driver', version: '3.3.0'
+        compile group: 'org.log4mongo', name: 'log4mongo-java', version: '0.7.4'
+        compile group: 'org.springframework.data', name: 'spring-data-mongodb', version: '1.9.2.RELEASE'
+        compile group: 'org.springframework.data', name: 'spring-data-mongodb-log4j', version: '1.9.2.RELEASE'
+        compile group: 'org.springframework.boot', name: 'spring-boot-starter-data-mongodb', version: '1.4.0.RELEASE'
+        compile group: 'commons-io', name: 'commons-io', version: '2.5'
+    }
+
+    jar {
+        manifest.attributes provider: 'gradle'
+    }
+}

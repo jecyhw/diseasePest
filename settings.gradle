@@ -1,0 +1,7 @@
+rootProject.name = 'diseasePest'
+include 'disease'
+include 'disease:fjsnw'
+include 'disease:zzbch'
+include 'shared'
+include 'pest'
+include 'pest:zzbch'

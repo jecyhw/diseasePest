@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/disease/disease.iml" filepath="$PROJECT_DIR$/disease/disease.iml" />
+      <module fileurl="file://$PROJECT_DIR$/disease/zzbch/disease-zzbch.iml" filepath="$PROJECT_DIR$/disease/zzbch/disease-zzbch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/diseasePest.iml" filepath="$PROJECT_DIR$/diseasePest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/disease/fjsnw/fjsnw.iml" filepath="$PROJECT_DIR$/disease/fjsnw/fjsnw.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pest/pest.iml" filepath="$PROJECT_DIR$/pest/pest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pest/zzbch/pest-zzbch.iml" filepath="$PROJECT_DIR$/pest/zzbch/pest-zzbch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shared/shared.iml" filepath="$PROJECT_DIR$/shared/shared.iml" />
+      <module fileurl="file://$PROJECT_DIR$/disease/zzbch/zzbch.iml" filepath="$PROJECT_DIR$/disease/zzbch/zzbch.iml" />
+    </modules>
+  </component>
+</project>

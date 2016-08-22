@@ -1,0 +1,18 @@
+2016-08-22 11:11:30  [ main:16430 ] - [ ERROR ]  timeout
+2016-08-22 11:14:30  [ main:9176 ] - [ ERROR ]  RequestFailedException{url='http://www.veg.org.cn/zzbchdetailill.asp?id=352', params='', message='Response{protocol=http/1.1, code=404, message=Not Found, url=http://www.veg.org.cn/zzbchdetailill.asp?id=352}'}
+2016-08-22 11:14:49  [ main:28476 ] - [ ERROR ]  
+2016-08-22 11:21:14  [ main:43510 ] - [ ERROR ]  RequestFailedException{url='http://www.veg.org.cn/zzbchdetailill.asp?id=352', params='', message='Response{protocol=http/1.1, code=404, message=Not Found, url=http://www.veg.org.cn/zzbchdetailill.asp?id=352}'}
+2016-08-22 11:21:52  [ main:80985 ] - [ ERROR ]  
+2016-08-22 14:09:56  [ main:32683 ] - [ ERROR ]  
+2016-08-22 14:20:07  [ main:196917 ] - [ ERROR ]  timeout
+2016-08-22 14:20:07  [ main:197191 ] - [ ERROR ]  
+2016-08-22 16:32:10  [ main:39919 ] - [ ERROR ]  
+2016-08-22 16:35:06  [ main:28830 ] - [ ERROR ]  
+2016-08-22 16:37:03  [ main:110609 ] - [ ERROR ]  
+2016-08-22 16:50:39  [ main:290046 ] - [ ERROR ]  RequestFailedException{url='http://www.veg.org.cn/zzbch/detailill.asp?id=254', params='', message='Response{protocol=http/1.1, code=500, message=Internal Server Error, url=http://www.veg.org.cn/zzbch/detailill.asp?id=254}'}
+2016-08-22 16:50:40  [ main:290140 ] - [ ERROR ]  
+2016-08-22 16:51:32  [ main:342081 ] - [ ERROR ]  RequestFailedException{url='http://www.veg.org.cn/zzbch/detailill.asp?id=266', params='', message='connect timed out'}
+2016-08-22 16:51:32  [ main:342119 ] - [ ERROR ]  
+2016-08-22 16:53:38  [ main:468359 ] - [ ERROR ]  couldn't save chunks
+2016-08-22 16:54:00  [ main:490927 ] - [ ERROR ]  timeout
+2016-08-22 16:54:00  [ main:490960 ] - [ ERROR ]  

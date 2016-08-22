@@ -1,0 +1,14 @@
+2016-08-22 15:54:38  [ main:445 ] - [ ERROR ]  unexpected url: showpic.asp?url=UploadFiles/20082141023426167.jpg
+2016-08-22 15:54:38  [ main:604 ] - [ ERROR ]  unexpected url: showpic.asp?url=UploadFiles/200821410281860550.jpg
+2016-08-22 15:54:39  [ main:1742 ] - [ ERROR ]  unexpected url: showpic.asp?url=UploadFiles/200821410234765135.jpg
+2016-08-22 15:54:39  [ main:1905 ] - [ ERROR ]  unexpected url: showpic.asp?url=UploadFiles/200821410254269008.jpg
+2016-08-22 15:54:40  [ main:3077 ] - [ ERROR ]  unexpected url: showpic.asp?url=UploadFiles/200821410481079924.jpg
+2016-08-22 15:54:40  [ main:3226 ] - [ ERROR ]  unexpected url: showpic.asp?url=UploadFiles/200821410374418876.jpg
+2016-08-22 15:54:41  [ main:3507 ] - [ ERROR ]  unexpected url: showpic.asp?url=UploadFiles/200821410223146358.jpg
+2016-08-22 16:07:24  [ main:225443 ] - [ ERROR ]  couldn't save chunks
+2016-08-22 16:08:58  [ main:89582 ] - [ ERROR ]  RequestFailedException{url='http://www.veg.org.cn/zzbch/UploadFiles/200821410332666352.jpg', params='', message='connect timed out'}
+2016-08-22 16:11:23  [ main:43978 ] - [ ERROR ]  timeout
+2016-08-22 16:11:24  [ main:44015 ] - [ ERROR ]  
+2016-08-22 16:14:19  [ main:219786 ] - [ ERROR ]  couldn't save chunks
+2016-08-22 16:14:28  [ main:228259 ] - [ ERROR ]  RequestFailedException{url='http://www.veg.org.cn/zzbch/detailworm.asp?id=129', params='', message='Response{protocol=http/1.1, code=500, message=Internal Server Error, url=http://www.veg.org.cn/zzbch/detailworm.asp?id=129}'}
+2016-08-22 16:14:28  [ main:228292 ] - [ ERROR ]  
