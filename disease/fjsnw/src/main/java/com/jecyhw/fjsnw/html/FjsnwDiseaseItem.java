@@ -22,7 +22,6 @@ public class FjsnwDiseaseItem implements Page {
         logger.info("当前抓取的链接:" + itemUrl);
         try {
             String html = Request.get(itemUrl);
-            logger.info(html);
             return html;
         } catch (RequestFailedException e) {
             logger.error(e.getMessage());

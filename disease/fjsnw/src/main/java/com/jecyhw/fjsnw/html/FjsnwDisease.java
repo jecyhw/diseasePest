@@ -28,7 +28,6 @@ public class FjsnwDisease implements Page {
         logger.info("当前抓取的链接:" + indexUrl + " " + post.toString());
         try {
             String html = Request.post(indexUrl, post);
-            logger.info(html);
             return html;
         } catch (RequestFailedException e) {
             logger.error(e.getMessage());

@@ -5,3 +5,7 @@ include 'disease:zzbch'
 include 'shared'
 include 'pest'
 include 'pest:zzbch'
+include 'disease:kech'
+findProject(':disease:kech')?.name = 'kech'
+include 'bcch'
+

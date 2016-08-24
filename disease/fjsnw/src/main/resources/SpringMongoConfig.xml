@@ -30,6 +30,7 @@
     </bean>
     <bean id="mongoTemplate" class="org.springframework.data.mongodb.core.MongoTemplate">
         <constructor-arg name="mongoDbFactory" ref="mongoDbFactory"/>
+        <constructor-arg name="mongoConverter" ref="mappingMongoConverter"/>
     </bean>
 
 </beans>

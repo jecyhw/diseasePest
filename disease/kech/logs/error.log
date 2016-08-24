@@ -1,0 +1,7 @@
+2016-08-22 19:54:35  [ main:3779 ] - [ ERROR ]  unexpected url: 
+2016-08-22 19:54:36  [ main:3998 ] - [ ERROR ]  unexpected url: 
+2016-08-22 19:54:36  [ main:4214 ] - [ ERROR ]  unexpected url: 
+2016-08-22 19:54:36  [ main:4404 ] - [ ERROR ]  unexpected url: 
+2016-08-22 19:55:32  [ main:49672 ] - [ ERROR ]  unexpected url: 
+2016-08-22 20:10:58  [ main:841717 ] - [ ERROR ]  unexpected url: 
+2016-08-22 20:18:27  [ main:43011 ] - [ ERROR ]  RequestFailedException{url='http://nhjy.hzau.edu.cn/kech/zwbl/Phytopg/Server/images\dp\hgsmbj.jpg', params='', message='Response{protocol=http/1.1, code=404, message=Not Found, url=http://nhjy.hzau.edu.cn/kech/zwbl/Phytopg/Server/images/dp/hgsmbj.jpg}'}

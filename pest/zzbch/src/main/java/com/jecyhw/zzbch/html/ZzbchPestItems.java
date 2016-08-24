@@ -8,16 +8,16 @@ import java.util.Iterator;
  * Created by jecyhw on 16-8-19.
  */
 @Component
-public class ZzbchDiseaseItems implements Iterable<ZzbchDiseaseItem> {
+public class ZzbchPestItems implements Iterable<ZzbchPestItem> {
     int startId = 0;
     int endId = 215;
 
     @Override
-    public Iterator<ZzbchDiseaseItem> iterator() {
+    public Iterator<ZzbchPestItem> iterator() {
         return new ZzbchDiseaseItemIterator();
     }
 
-    class ZzbchDiseaseItemIterator implements Iterator<ZzbchDiseaseItem> {
+    class ZzbchDiseaseItemIterator implements Iterator<ZzbchPestItem> {
         int pageId = startId;
 
         @Override
@@ -26,9 +26,9 @@ public class ZzbchDiseaseItems implements Iterable<ZzbchDiseaseItem> {
         }
 
         @Override
-        public ZzbchDiseaseItem next() {
+        public ZzbchPestItem next() {
             pageId++;
-            return new ZzbchDiseaseItem(ZzbchConstant.INDEX_URL + "?id=" + pageId);
+            return new ZzbchPestItem(ZzbchConstant.INDEX_URL + "?id=" + pageId);
         }
     }
 }

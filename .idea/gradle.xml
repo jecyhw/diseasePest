@@ -9,8 +9,10 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/bcch" />
             <option value="$PROJECT_DIR$/disease" />
             <option value="$PROJECT_DIR$/disease/fjsnw" />
+            <option value="$PROJECT_DIR$/disease/kech" />
             <option value="$PROJECT_DIR$/disease/zzbch" />
             <option value="$PROJECT_DIR$/pest" />
             <option value="$PROJECT_DIR$/pest/zzbch" />

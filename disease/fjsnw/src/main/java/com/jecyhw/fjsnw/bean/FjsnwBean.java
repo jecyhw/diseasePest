@@ -8,7 +8,7 @@ import org.springframework.data.mongodb.core.mapping.Field;
  * Created by jecyhw on 16-8-19.
  */
 @Document(collection = "fjsnwDisease")
-public class FjsnwBean {
+final public class FjsnwBean {
     @Id
     private String id;
     @Field("病害名称")

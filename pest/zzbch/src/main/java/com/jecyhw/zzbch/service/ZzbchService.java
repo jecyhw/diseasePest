@@ -5,7 +5,7 @@ import com.jecyhw.shared.request.Request;
 import com.jecyhw.shared.response.filter.Filter;
 import com.jecyhw.zzbch.bean.ZzbchBean;
 import com.jecyhw.zzbch.html.ZzbchConstant;
-import com.jecyhw.zzbch.html.ZzbchDiseaseItem;
+import com.jecyhw.zzbch.html.ZzbchPestItem;
 import com.jecyhw.zzbch.repository.ZzbchRepository;
 import org.apache.log4j.Logger;
 import org.jsoup.Jsoup;
@@ -45,7 +45,7 @@ public class ZzbchService {
         zzbchRepository.save(beans);
     }
 
-    public void add(ZzbchDiseaseItem item) {
+    public void add(ZzbchPestItem item) {
         ZzbchBean bean = new ZzbchDiseaseItemFilter(item).filter();
         if (bean != null) {
             this.add(bean);
@@ -53,9 +53,9 @@ public class ZzbchService {
     }
 
     private class ZzbchDiseaseItemFilter implements Filter<ZzbchBean> {
-        final ZzbchDiseaseItem item;
+        final ZzbchPestItem item;
 
-        public ZzbchDiseaseItemFilter(ZzbchDiseaseItem item) {
+        public ZzbchDiseaseItemFilter(ZzbchPestItem item) {
             this.item = item;
         }
 

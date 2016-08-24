@@ -9,12 +9,12 @@ import java.nio.charset.Charset;
 /**
  * Created by jecyhw on 16-8-19.
  */
-public class ZzbchDiseaseItem implements Page {
-    static final Logger logger = Logger.getLogger(ZzbchDiseaseItem.class);
+public class ZzbchPestItem implements Page {
+    static final Logger logger = Logger.getLogger(ZzbchPestItem.class);
 
     final String itemUrl;
 
-    public ZzbchDiseaseItem(String itemUrl) {
+    public ZzbchPestItem(String itemUrl) {
         this.itemUrl = itemUrl;
     }
 

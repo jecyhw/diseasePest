@@ -1,6 +1,5 @@
-import com.jecyhw.shared.request.Page;
-import com.jecyhw.zzbch.html.ZzbchDiseaseItem;
-import com.jecyhw.zzbch.html.ZzbchDiseaseItems;
+import com.jecyhw.zzbch.html.ZzbchPestItem;
+import com.jecyhw.zzbch.html.ZzbchPestItems;
 import com.jecyhw.zzbch.service.ZzbchService;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,7 +14,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 public class ZzbchDiseaseTest {
 
     @Autowired
-    ZzbchDiseaseItems diseaseItems;
+    ZzbchPestItems diseaseItems;
 
     @Autowired
     ZzbchService service;
@@ -23,10 +22,10 @@ public class ZzbchDiseaseTest {
     @org.junit.Test
     public void test() {
 
-//        for (ZzbchDiseaseItem diseaseItem : diseaseItems) {
+//        for (ZzbchPestItem diseaseItem : diseaseItems) {
 //            service.add(diseaseItem);
 //        }
-        ZzbchDiseaseItem item = new ZzbchDiseaseItem("http://www.veg.org.cn/zzbch/detailworm.asp?id=19");
+        ZzbchPestItem item = new ZzbchPestItem("http://www.veg.org.cn/zzbch/detailworm.asp?id=19");
         service.add(item);
     }
 }
