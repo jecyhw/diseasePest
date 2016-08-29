@@ -4,6 +4,8 @@
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.log4mongo/log4mongo-java/0.7.4/3862b74d2a11a7d0e9b2a5b4634260631a1193eb/log4mongo-java-0.7.4.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.log4mongo/log4mongo-java/0.7.4/9ed7e42558f809fe00ac1f2b4d704d291c0fe282/log4mongo-java-0.7.4-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

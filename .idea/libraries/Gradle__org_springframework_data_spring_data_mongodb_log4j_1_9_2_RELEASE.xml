@@ -4,6 +4,8 @@
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-mongodb-log4j/1.9.2.RELEASE/17c5be21ccabd62bfec655a490f33a05fbe62eb4/spring-data-mongodb-log4j-1.9.2.RELEASE.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-mongodb-log4j/1.9.2.RELEASE/aee0751cbf8e569bc87cd5ad88f64e997282edf4/spring-data-mongodb-log4j-1.9.2.RELEASE-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>
